@@ -1,0 +1,37 @@
+:root {
+    --primary-color: #114b5f;
+    --secondary-color: #028090;
+    --accent1-color:#e4fde1;
+    --accent2-color:#456990;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: var(--primary-color);
+    position: absolute;
+}
+
+article {
+    position: absolute;
+    background-color: var(--accent2-color);
+}
+
+h2 {
+    color: var(--primary-color);
+}
+
+p {
+    color : var(--secondary-color);
+}
+
+
+
