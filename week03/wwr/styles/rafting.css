@@ -26,6 +26,7 @@ h2 {
     margin: 0;
     padding: 0;
     font-size:xx-large;
+    text-align: center;
     display: block;
 }
 
@@ -75,8 +76,7 @@ main div div{
 section {
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 section div{
