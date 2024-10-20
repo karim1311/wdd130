@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="author" content="Karim Valenzuela">
+    <meta name="description" content="The Contact us Raftors page aims to provide the different resources to find us and contact us for more information, appointments, etc.">
+    <link rel="stylesheet" href="./styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="./images/logo.jpg" alt="rafting logo">
+        <nav>
+            <a href="index.html">index</a>
+            <a href="about.html">about</a>
+            <a href="trips.html">trips</a>
+            <a href="contact.html">contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-us">
+            <div class="contact-element">
+                <h1 class="">Address</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing</p>
+            </div>
+            <div class="contact-element">
+                <h1>Phone Number(s)</h1>
+                <p>+1 55 23-78-54</p>
+            </div>
+            
+            <div class="contact-element">
+                <h1>email</h1>
+                <p>raftors78@gmail.com</p>
+            </div>
+
+        </section>
+        <section class="contact-us2">
+            <div class="contact-element">
+                <h1>Google maps</h1>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10673.759807282575!2d-77.86950800669347!3d-4.588909145874276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91c98b11b0f61d25%3A0x34fbd817b3ee81db!2sSanta%20Maria%20De%20Nieva!5e0!3m2!1ses-419!2smx!4v1729397653910!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="employees">
+            <div>
+                <h2>Get to know our staff.</h2>
+
+            </div>
+            <div>
+                <div class="contact-us">
+                    <div class="contact-element">
+                        <img src="./images/employee.jpg" alt="employeeCarlos">
+                        <p>Carlos Cabrera</p>
+                    </div>
+                    <div class="contact-element">
+                        <img src="./images/employee2.jpg" alt="employeeGiselle">
+                        <p>Gisselle Hernández</p>
+                    </div>
+                    <div class="contact-element">
+                        <img src="./images/employee3.jpg" alt="employeeMelanie">
+                        <p>Melanie Martínez</p>
+                    </div>
+            </div>
+            </div>
+        </section>
+        <form action="#">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <!-- form elements will go here -->
+                <div class="form-item">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Leave us a Message here.</legend>
+                <label for="pet">Please select the purpose of the message.</label>
+                <div class="form-item column1">
+                    <label for="generalInquiry">General Inquiry</label>
+                    <input type="radio" id="generalInquiry" name="option" value="generalInquiry">
+                    <label for="reservationQuestion">Reservation Question</label>
+                    <input type="radio" id="reservationQuestion" name="option" value="reservationQuestion">
+                    <label for="websiteSuggest">Website Suggestion</label>
+                    <input type="radio" name="option" id="websiteSuggest" value="websiteSuggest">
+                </div>
+                <label for="feedback">Write the message here:</label>
+                <textarea name="feedback" id="feedback" rows="4" placeholder="Message place"></textarea>
+                <div class="form-item column2">
+                    <label for="pet">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+            </fieldset>
+            <button type="submit">Submit Message</button>
+        </form>
+    </main>
+    <footer>
+        <p>2024, Raftors Co. Karim Valenzuela</p>
+        <div>
+            <a href="https://www.facebook.com/">
+                <img src="./images/facebook_logo.svg" alt="facebook" height="25">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="./images/instagram_icon.svg" alt="instagram" height="25">
+            </a>
+            <a href="https://x.com/">
+                <img src="./images/x_.svg" alt="x twitter" height="25">
+            </a>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
